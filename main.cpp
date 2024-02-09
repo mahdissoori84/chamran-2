@@ -1,15 +1,14 @@
 #include <iostream>
-#include <string>
+
+using namespace std;
 
 int main()
 {
-  std::cout<<"input num1 : \n" ;
-  int num1 ;
-  std::cin>>num1 ;
+    //the first way taught in class:
 
-  std::cout<<"input num2: \n" ;
-  int num2 ;
-  std::cin>>num2 ;
-  std::cout<<num1+num2;
-  return 0 ;
+    cout << "****\n" ;
+    cout << "***\n" ;
+    cout << "**\n" ;
+    cout << "*\n" ;
+    return 0;
 }
